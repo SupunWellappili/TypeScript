@@ -50,10 +50,18 @@ export default function(){
 
     console.log("/////////////////////////////////////////////////////");
 
+    //functions
+    function printName01(name01:string): void{
+        console.log(name01);
+    }
 
+    const printName02 = function(name02:string):void{
+        console.log(name02);
+    }
+
+    const printName03 = (name03:string):void => {
+        console.log(name03);   
+    }
     
-
-
-
 }
 
