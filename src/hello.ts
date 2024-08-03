@@ -1,6 +1,8 @@
 export default function(){
-    console.log("Hello Word!!!");
+    console.log("Hello Word!");
 
+    console.log("/////////////////////////////////////////////////////");
+    
     const _boolean:boolean = true;
     console.log(typeof(_boolean));
 
@@ -39,4 +41,19 @@ export default function(){
     const _any:any =[1,"String",undefined,Color.GREEN];
     console.log(typeof(_any));
 
+    console.log("/////////////////////////////////////////////////////");
+
+
+    const ar : Number[] =[1,2,3];
+    const tu :[number,string] = [678," "];
+
+
+    console.log("/////////////////////////////////////////////////////");
+
+
+    
+
+
+
 }
+
