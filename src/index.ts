@@ -8,3 +8,24 @@ hello();
 
 //const frontEndCoder01:string = "Frontend Coder - 01" 
 //frontEndCoder01 = 'YXYZ'; //
+
+console.log("/////////////////////////////////////////////////////");
+
+interface A{
+    name:string;
+    printName(name:string):void;
+
+
+}
+
+class B implements A{
+    name: string = ' ';
+    printName(): void {
+        console.log(this.name);
+        
+    }
+
+}
+
+
+console.log("/////////////////////////////////////////////////////");
