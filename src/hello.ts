@@ -1,8 +1,10 @@
 export default function(){
+    //printed
     console.log("Hello Word!");
 
     console.log("/////////////////////////////////////////////////////");
     
+    //types
     const _boolean:boolean = true;
     console.log(typeof(_boolean));
 
@@ -43,7 +45,7 @@ export default function(){
 
     console.log("/////////////////////////////////////////////////////");
 
-
+    //arry & tuple
     const ar : Number[] =[1,2,3];
     const tu :[number,string] = [678," "];
 
@@ -62,6 +64,45 @@ export default function(){
     const printName03 = (name03:string):void => {
         console.log(name03);   
     }
-    
 }
+   
+console.log("/////////////////////////////////////////////////////");
+
+//Create Class
+class Dog{
+
+    //static instance
+    static className = "dog";
+
+    //instance variable
+    name:string;
+
+    //constructor
+    constructor (name:string){
+         this.name = name;
+    }
+
+    printName(){
+        console.log(this.name);//snoby
+    }
+
+    static printClassName(){
+         console.log(Dog.className);//dog
+    }
+}
+
+const d = new Dog('snoby');
+d.printName();
+Dog.printClassName();
+
+console.log("/////////////////////////////////////////////////////");
+
+
+
+
+
+
+
+
+
 
