@@ -29,3 +29,34 @@ class B implements A{
 
 
 console.log("/////////////////////////////////////////////////////");
+
+interface Animal{
+    makeSound():void;
+}
+
+class Cat implements Animal{
+    makeSound():void{
+        console.log("ewwww");
+    }
+
+    tail(){
+        console.log("Tail....");
+        
+    }
+}
+
+class Dog implements Animal{
+    makeSound():void{
+        console.log("bwwww");
+    }
+}
+
+let animal:Animal = new Cat();
+animal.makeSound();//ewwww
+
+ animal = new Dog();
+ animal.makeSound();//bwwww
+
+
+ console.log("/////////////////////////////////////////////////////");
+
